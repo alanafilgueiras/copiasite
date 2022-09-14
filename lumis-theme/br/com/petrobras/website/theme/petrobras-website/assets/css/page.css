@@ -1,0 +1,504 @@
+.pd-content div[class*="carousel"] .slick-slide {
+
+    height: auto;
+    }
+    
+    .pd-content .pd-carousel-thumbs .slick-slide {
+    
+    margin: 0 3px;
+    }
+    
+    
+    #page-tecnologia .slick-item {
+      position:relative;
+    }
+    #page-tecnologia .slick-item img {
+      width:100%;
+    }
+    #page-tecnologia .slick-item .box-content {
+      position: absolute;
+      z-index: 2;
+      left: 13vw;
+      bottom: 296px;
+      width: 396px;
+      box-sizing: border-box;
+      padding: 25px;
+    }
+    #page-tecnologia .slick-item .box-content-two {
+      position: absolute;
+      z-index: 2;
+      left: 13vw;
+      bottom: 480px;
+      width: initial;
+      box-sizing: border-box;
+      padding: 25px;
+    }
+    #page-tecnologia .slick-item .box-content-three {
+      position: absolute;
+      z-index: 2;
+      left: 13vw;
+      bottom: 100px;
+      width: initial;
+      box-sizing: border-box;
+      padding: 25px;
+    }
+    #page-tecnologia .slick-item .box-content-four {
+      position: absolute;
+      z-index: 2;
+      right: 13vw;
+      top: 20px;
+      bottom: initial;
+      width: initial;
+      box-sizing: border-box;
+      padding: 25px;
+      text-align: right;
+      left: initial;
+    }
+    #page-tecnologia .slick-item .box-content p {
+      margin:0;
+      font:20px "petrobras_sansitalic";
+      color:#fff;
+        font-style: italic;
+    }
+    #page-tecnologia .slick-item .box-content-two .tme-one,
+    #page-tecnologia .slick-item .box-content-four .tme-one {
+      margin:0;
+      font:45px "petrobras_sansbold";
+      font-style: italic;
+      color:#fdc82f;
+    }
+    #page-tecnologia .slick-item .box-content-three p {
+      margin:0;
+      font:15px "petrobras_sansitalic";
+      color:#fff;
+    }
+    #page-tecnologia .slick-item .box-content-four p {
+      margin:0;
+      font: 50px "petrobras_sanslight";
+      font-style: italic;
+      color: #fff;
+    }
+    #page-tecnologia .slick-arrow {
+      position:absolute;
+      z-index:2;
+      text-indent:-9999px;
+      top:50%;
+      left:10vw;
+      width:22px;
+      height:40px;
+      padding:0;
+      border:none;
+      background:url('../img/arrow-left.png');
+      background-color:transparent;
+      -webkit-transform:translateY(-50%);
+      -moz-transform:translateY(-50%);
+      -ms-transform:translateY(-50%);
+      transform:translateY(-50%);
+    }
+    #page-tecnologia .slick-arrow.slick-next {
+      left:auto;
+      right:10vw;
+      background:url('../img/arrow-right.png');
+    }
+    #page-tecnologia .slick-dots {
+      position:absolute;
+      left:0;
+      bottom:30px;
+      width:100%;
+      margin: 0;
+      text-align:center;
+      list-style:none;
+    }
+    #page-tecnologia .slick-dots li {
+      display:inline-block;
+    }
+    #page-tecnologia .slick-dots li button {
+      display:inline-block;
+      text-indent:-9999px;
+      width:12px;
+      height:12px;
+      padding:0;
+      margin:0 4px;
+      border-radius:50%;
+      border:2px solid #fff;
+      background:transparent;
+      -webkit-transition: background-color 0.4s ease-out;
+      -ms-transition: background-color 0.4s ease-out;
+      -moz-transition: background-color 0.4s ease-out;
+      transition: background-color 0.4s ease-out;
+    }
+    #page-tecnologia .slick-dots li button:hover, #page-tecnologia .slick-dots li.slick-active button {
+      background-color:#fff;
+    }
+    
+    
+    .pd-content div[class*="carousel"] .slick-slide {
+    
+    height: auto;
+    }
+    
+    .pd-content div[class*="carousel"] img {
+    
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .pd-content .pd-carousel {
+    
+    margin-bottom: 8px;
+    }
+    
+    .pd-content .pd-carousel-thumbs {
+    
+    max-width: 92%;
+    margin: 0 auto;
+    }
+    
+    .pd-content .pd-carousel-thumbs .slick-slide {
+    
+    margin: 0 3px;
+    }
+    
+    .pd-content .pd-carousel-thumbs .slick-next,
+    .pd-content .pd-carousel-thumbs .slick-prev {
+    
+    background:
+    #F9C749
+    ;
+    border-radius: 0;
+    height: 100%;
+    width: 25px;
+    }
+    
+    .pd-content .pd-carousel-thumbs .slick-next {
+    
+    right: -30px;
+    }
+    
+    .pd-content .pd-carousel-thumbs .slick-prev {
+    
+    left: -30px;
+    }
+    
+    .pd-content div[class*="carousel"] figure {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color:
+    #FAFAFA
+    ;
+    }
+    
+    .pd-content div[class*="carousel"] figure img {
+    
+    width: 100%;
+    visibility: hidden;
+    }
+    
+    .pd-content .pd-carousel-thumbs figure {
+    
+    background-size: cover !important;
+    } 
+    
+    
+    @media only screen and (max-width: 640px){
+    
+    #page-tecnologia .slick-item .box-content {
+        position:static;
+        width: 100%;
+        padding:10px;
+        background-color:rgb(14,138,68);
+      }
+      #page-tecnologia .slick-item .box-content p {
+        font-size:12px;
+      }
+      #page-tecnologia .slick-arrow {
+        -webkit-transform:scale(0.4);
+        -moz-transform:scale(0.4);
+        -ms-transform:scale(0.4);
+        transform:scale(0.4);
+        top:15vw;    
+      }  
+      #page-tecnologia .slick-dots {
+        bottom:auto;
+        top:33vw;
+      }
+      #page-tecnologia .slick-dots li button {
+        width:9px;
+        height:9px;
+        margin:0 3px;
+        border:1px solid #fff;    
+      }
+    }
+    
+    
+    #page-tecnologia .slick-item {
+      position:relative;
+      height: 750px;
+    }
+    #page-tecnologia .slick-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    #page-tecnologia .slick-item .box-content-two {
+      position: absolute;
+      z-index: 2;
+      left: 13vw;
+      bottom: 480px;
+      width: initial;
+      box-sizing: border-box;
+      padding: 25px;
+    }
+    #page-tecnologia .slick-item .box-content-two.centralized {
+      top: 40px;
+      left: 50%;
+      bottom: initial;
+      padding: 0px;
+      text-align: center;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+    
+    #page-tecnologia .slick-item .box-content-two .slide-title {
+      line-height: 33px;
+      font-family: "petrobras_sansbold";
+      font-style: italic;
+      font-size: 33px;
+      color: #fdc82f;
+    }
+    #page-tecnologia .slick-item .box-content-two .slide-subtitle {
+      margin-top: 5px;
+      line-height: 33px;
+      font-family: "petrobras_sanslight";
+      font-style: italic;
+      font-size: 33px;
+      color: #ffffff;
+    }
+    #page-tecnologia .slick-item .box-content-two p {
+      margin: 0;
+      font: 60px "petrobras_sanslight";
+      font-style: italic;
+      color: #fff;
+      line-height: 60px;
+    }
+    #page-tecnologia .slick-item .box-content-three p {
+      margin: 0px 0px 20px 0px;
+      font: 15px "petrobras_sanslight";
+      font-style: italic;
+      color: #fff;
+    }
+    #page-tecnologia .slick-item .box-content-three p .style-letter {
+      font-family: "petrobras_sansbold";
+    }
+    #page-tecnologia .slick-item .box-content-four p {
+      margin: 0;
+      font: 60px "petrobras_sanslight";
+      font-style: italic;
+      color: #fff;
+      line-height: 60px;
+    }
+    #page-tecnologia .slick-arrow {
+      position:absolute;
+      z-index:2;
+      text-indent:-9999px;
+      top:50%;
+      left:60px;
+      width:22px;
+      height:40px;
+      padding:0;
+      border:none;
+      background:url('../img/arrow-left.png');
+      background-color:transparent;
+      -webkit-transform:translateY(-50%);
+      -moz-transform:translateY(-50%);
+      -ms-transform:translateY(-50%);
+      transform:translateY(-50%);
+    }
+    #page-tecnologia .slick-arrow.slick-next {
+      left:auto;
+      right:60px;
+      background:url('../img/arrow-right.png');
+    }
+    #page-tecnologia .slick-dots {
+      position:absolute;
+      left:0;
+      bottom:30px;
+      width:100%;
+      margin: 0;
+      text-align:center;
+      list-style:none;
+    }
+    #page-tecnologia .slick-dots li {
+      display:inline-block;
+    }
+    #page-tecnologia .slick-dots li button {
+      display:inline-block;
+      text-indent:-9999px;
+      width:12px;
+      height:12px;
+      padding:0;
+      margin:0 4px;
+      border-radius:50%;
+      border:2px solid #fff;
+      background:transparent;
+      -webkit-transition: background-color 0.4s ease-out;
+      -ms-transition: background-color 0.4s ease-out;
+      -moz-transition: background-color 0.4s ease-out;
+      transition: background-color 0.4s ease-out;
+    }
+    #page-tecnologia .slick-dots li button:hover, #page-tecnologia .slick-dots li.slick-active button {
+      background-color:#fff;
+    }
+    
+    #page-tecnologia .slick-item .box-content p .style-letter {
+      font-family: "petrobras_sansbold";
+    }
+    
+    @media only screen and (max-width: 640px){
+    #page-tecnologia .slick-item .box-content,
+      #page-tecnologia .slick-item .box-content-three {
+        position: absolute;
+        width: 100%;
+        padding: 0px 50px;
+        top: initial;
+        left: 0%;
+        bottom: 40px;
+        background: none;
+      }
+      #page-tecnologia .slick-item .box-content p {
+        font-size:14px;
+      }
+      #page-tecnologia .slick-item .box-content p br {
+        display: none;
+      }
+      #page-tecnologia .slick-item .box-content p .style-letter {
+        font-family: "petrobras_sansbold";
+      }
+    
+    
+      #page-tecnologia .slick-item .box-content-two {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        bottom: initial;
+        padding: 50px;
+      }
+      #page-tecnologia .slick-item .box-content-two .tme-one {
+        font-size: 28px;
+      }
+      #page-tecnologia .slick-item .box-content-two p,
+      #page-tecnologia .slick-item .box-content-four p {
+        line-height: 28px;
+        font-size: 28px;
+      }
+    
+      #page-tecnologia .slick-arrow {
+        -webkit-transform:scale(0.8);
+        -moz-transform:scale(0.8);
+        -ms-transform:scale(0.8);
+        transform:scale(0.8);
+        top:50%;
+      }  
+      #page-tecnologia .slick-dots {
+        bottom: 10px;
+        top: initial;
+      }
+      #page-tecnologia .slick-dots li button {
+        width:9px;
+        height:9px;
+        margin:0 3px;
+        border:1px solid #fff;    
+      }
+    
+    
+    }
+    
+    
+    
+    @media only screen and (max-width: 640px){
+    
+        #page-tecnologia .slick-item {
+        height: 470px;
+      }
+      #page-tecnologia .slick-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(2px);
+      }
+      #page-tecnologia .slick-item .box-content-three p {
+        font-size: 14px;
+      }
+      #page-tecnologia .slick-item .box-content-three p br {
+        display: none;
+      }
+      #page-tecnologia .slick-item .box-content-four p.tme-one {
+        margin: 0;
+        font: 45px "petrobras_sansbold";
+        font-size: 28px;
+        font-style: italic;
+        color: #fdc82f;
+      }
+      #page-tecnologia .slick-item .box-content-four {
+        width: 100%;
+        top: 0px;
+        left: initial;
+        bottom: initial;
+        padding: 50px 0px 50px 50px;
+        text-align: right;
+      }
+        
+        #page-tecnologia .slick-arrow.slick-next {
+        right: 20px;
+      }
+      #page-tecnologia .slick-arrow {
+        left: 20px;
+      }
+      #page-tecnologia .slick-item .box-content-two .slide-title {
+        line-height: 21px;
+        font-size: 21px;
+      }
+      #page-tecnologia .slick-item .box-content-two .slide-subtitle {
+        line-height: 18px;
+        font-size: 18px;
+      }
+    
+    }
+    
+    
+    #page-full #page-tecnologia .slick-item .box-content {
+        position: absolute;
+        z-index: 2;
+        left: 10vw;
+        bottom: 0;
+        width: 430px;
+        box-sizing: border-box;
+        padding: 25px;
+        background-color: rgba(14,138,68,0.8);
+    }
+    
+    #page-tecnologia .tecnologias-do-futuro {
+        margin-top: -1px;
+        position: relative;
+        height: 660px;
+        padding-top: 95px;
+        box-sizing: border-box;
+    }
+    #page-tecnologia .tecnologias-do-futuro-bg {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 1920px;
+        height: 660px;
+        background: url(../img/tecnologias.jpg);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
